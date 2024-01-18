@@ -17,11 +17,36 @@ public class Main {
 
         //todo дописать логику программы сюда
 
-        Scanner scanner = new Scanner(System.in).nextInt();
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Введите количество жабьих глаз :");
-        int toadEyesCount = scanner;
-        System.out.println("Введите количество жабьих глаз :");
-        int ghoulTearsCount = scanner;
+        toadEyesCount = scanner.nextInt();
+        System.out.println("Введите количество слез вурдалака :");
+        ghoulTearsCount = scanner.nextInt();
+        System.out.println("Введите количество костей ворона :");
+        ravenBonesCount = scanner.nextInt();
+        System.out.println("Введите количество пельменей :");
+        dumplingsCount = scanner.nextInt();
 
+        boolean isMakeRecipe = false;
+
+        if (toadEyesCount >= 3 && ravenBonesCount >=1) {
+            System.out.println("Вы можете создать эликсир Зоркости");
+            isMakeRecipe = true;
+        }
+        if (ravenBonesCount >= 2 && dumplingsCount >=4) {
+            System.out.println("Вы можете создать эликсир Стойкости");
+            isMakeRecipe = true;
+        }
+        if (ghoulTearsCount >= 7 && dumplingsCount >=1 && toadEyesCount >=2) {
+            System.out.println("Вы можете создать эликсир Скрытности");
+            isMakeRecipe = true;
+        }
+        if (ghoulTearsCount >= 5 && dumplingsCount >=10 && toadEyesCount >=4 && ravenBonesCount >=3) {
+            System.out.println("Вы можете создать Запретный эликсир");
+            isMakeRecipe = true;
+        }
+        if (isMakeRecipe == false) {
+            System.out.println(" Вы не можете сделать ни одного эликсира, у вас не хватает инградиентов");
+        }
     }
 }
