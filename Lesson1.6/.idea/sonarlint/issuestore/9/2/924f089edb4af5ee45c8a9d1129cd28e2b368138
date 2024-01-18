@@ -1,0 +1,33 @@
+
+7
+java:S1220""Move this file to a named package.8ÒÓÔÀĞ1
+\
+java:S1854"?Remove this useless assignment to local variable "charSymbol2".(ş¾Òú8ÕÓÔÀĞ1
+`
+java:S1854">Remove this useless assignment to local variable "charSymbol".(¯êµÎúÿÿÿÿ8ÕÓÔÀĞ1
+[
+java:S1854	">Remove this useless assignment to local variable "woldString".(ÿ£Ôè8ÕÓÔÀĞ1
+Z
+java:S1854"=Remove this useless assignment to local variable "countLong".(¯ƒîû8ÕÓÔÀĞ1
+_
+java:S1854"=Remove this useless assignment to local variable "countInt2".(Ë•îùùÿÿÿÿ8ÕÓÔÀĞ1
+^
+java:S1854"<Remove this useless assignment to local variable "countInt".(Ñ¿à±üÿÿÿÿ8ÕÓÔÀĞ1
+W
+java:S1854"5Remove this useless assignment to local variable "b".(Ñ”¥ñùÿÿÿÿ8ÕÓÔÀĞ1
+H
+java:S1481"&Remove this unused "b" local variable.(Ñ”¥ñùÿÿÿÿ8ÖÓÔÀĞ1
+O
+java:S1481"-Remove this unused "countInt" local variable.(Ñ¿à±üÿÿÿÿ8ÖÓÔÀĞ1
+P
+java:S1481".Remove this unused "countInt2" local variable.(Ë•îùùÿÿÿÿ8×ÓÔÀĞ1
+K
+java:S1481".Remove this unused "countLong" local variable.(¯ƒîû8×ÓÔÀĞ1
+L
+java:S1481	"/Remove this unused "woldString" local variable.(ÿ£Ôè8×ÓÔÀĞ1
+Q
+java:S1481"/Remove this unused "charSymbol" local variable.(¯êµÎúÿÿÿÿ8×ÓÔÀĞ1
+M
+java:S1481"0Remove this unused "charSymbol2" local variable.(ş¾Òú8×ÓÔÀĞ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8ô©ÕÀĞ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¤ŒÇ”8§“ÖÀĞ1
