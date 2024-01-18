@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         int toadEyesCount = 0;          //Жабьи глаза
@@ -14,5 +16,12 @@ public class Main {
         // 4. 5 слез вурдалака + 10 пельменей + 4 жабьих глаза + 3 кости ворона - Запретный эликсир
 
         //todo дописать логику программы сюда
+
+        Scanner scanner = new Scanner(System.in).nextInt();
+        System.out.println("Введите количество жабьих глаз :");
+        int toadEyesCount = scanner;
+        System.out.println("Введите количество жабьих глаз :");
+        int ghoulTearsCount = scanner;
+
     }
 }
